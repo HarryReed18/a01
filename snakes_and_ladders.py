@@ -35,3 +35,17 @@ def run_tests():
 # Edit this code
 def move(roll):
 
+    count = 11
+    count = count + roll
+
+    if count == 14:
+        count = count + 15
+
+    elif count == 17:
+        count = count - 13
+
+    print(count)
+
+
+    
+
